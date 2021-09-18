@@ -1,22 +1,21 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 /* Solving project 1 */
 
-/** 
- * main - last digit sign
- * Return:0 (Success)
+/**
+ *main- last digit sign
+ *Return: 0 (Success)
  */
-
 int main(void)
 {
-	int n; 
+	int n;
 	int lastDt;
 	int sam;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */ 
+	/* your code goes there */
 	lastDt = n % 10;
 	if (lastDt == 0)
 	{
